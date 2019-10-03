@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Zadatak1.View.Profil"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zadatak1.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Margin="0,10,0,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FF9CCFF9" Offset="1"/>
+                <GradientStop Color="#FFF196B7"/>
+                <GradientStop Color="#FF6982A9"/>
+                <GradientStop Color="#FFEB9595"/>
+                <GradientStop Color="White"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="userBlock" Text="{Binding CurrentUser.ValidationErrors[Username]}" Foreground="Red" TextAlignment="Center" Margin="0,100,0,169"/>
+        <TextBlock x:Name="passBlock" Text="{Binding CurrentUser.ValidationErrors[Password]}" Foreground="Red" TextAlignment="Center" Margin="0,180,0,87"/>
+        <Label x:Name="label" Content="Username:" HorizontalAlignment="Left" Margin="73,41,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.919,0.808"/>
+        <Label x:Name="label1" Content="Password:" HorizontalAlignment="Left" Margin="64,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.316,-0.654" Width="64"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="64,72,0,0" TextWrapping="Wrap" Text="{Binding CurrentUser.Username, Mode=TwoWay}" VerticalAlignment="Top" Width="151"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="64,157,0,0" TextWrapping="Wrap" Text="{Binding CurrentUser.Password, Mode=TwoWay}" VerticalAlignment="Top" Width="151"/>
+        <Button x:Name="button" Content="Edit" Command="{Binding ChangeCommand}" HorizontalAlignment="Left" Margin="95,236,0,0" VerticalAlignment="Top" Width="89" Background="#FF66ACFF"/>
+        <Label x:Name="label2" Content="Edit your data:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="136"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfXMLPictures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XMLPictures>
+    <Path>C:\Users\Pele\Desktop\Pele\397356_3125277014234_4457769_n.jpg</Path>
+    <Title>Bleja</Title>
+    <Description>Bokanidja</Description>
+    <Owner>dusan</Owner>
+    <Time>2018-02-12T01:32:34.7301049+01:00</Time>
+  </XMLPictures>
+  <XMLPictures>
+    <Path>C:\Users\Kosta\Desktop\New folder\CkOLqP2WEAALcDM.jpg</Path>
+    <Title>gudaitisGudron</Title>
+    <Owner>zvezdan</Owner>
+    <Time>2019-02-10T20:42:48.8708097+01:00</Time>
+  </XMLPictures>
+  <XMLPictures>
+    <Path>C:\Users\Kosta\Desktop\New folder\1305188020_1920x1080_hawaii-island-picture.jpg</Path>
+    <Title>havaji</Title>
+    <Description>maui</Description>
+    <Owner>Luka</Owner>
+    <Time>2019-02-10T22:12:11.4875458+01:00</Time>
+  </XMLPictures>
+  <XMLPictures>
+    <Path>C:\Users\Kosta\Desktop\New folder\fc-barcelona-wallpaper-15.jpg</Path>
+    <Title>Barca</Title>
+    <Owner>predrag</Owner>
+    <Time>2019-02-10T22:16:22.1163956+01:00</Time>
+  </XMLPictures>
+</ArrayOfXMLPictures>

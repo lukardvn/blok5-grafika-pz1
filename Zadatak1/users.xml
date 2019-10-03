@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfXMLUsers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <XMLUsers>
+    <Username>dusan</Username>
+    <Password>pecic123</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>dusan1</Username>
+    <Password>pecic123</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>Pele</Username>
+    <Password>Kralj123</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>zvezdan</Username>
+    <Password>terzic123</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>asddas</Username>
+    <Password>fd324432</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>Luka</Username>
+    <Password>marakana1963</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>predrag</Username>
+    <Password>babicKac</Password>
+  </XMLUsers>
+  <XMLUsers>
+    <Username>predrag1</Username>
+    <Password>babicKac</Password>
+  </XMLUsers>
+</ArrayOfXMLUsers>
